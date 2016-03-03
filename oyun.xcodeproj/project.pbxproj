@@ -15,6 +15,7 @@
 		FBDD754B1C88B3A600A90AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDD75491C88B3A600A90AFE /* LaunchScreen.storyboard */; };
 		FBDD75561C88B3A600A90AFE /* oyunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDD75551C88B3A600A90AFE /* oyunTests.m */; };
 		FBDD75611C88B3A700A90AFE /* oyunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDD75601C88B3A700A90AFE /* oyunUITests.m */; };
+		FBDD75701C88B66A00A90AFE /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDD756F1C88B66A00A90AFE /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FBDD755C1C88B3A700A90AFE /* oyunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oyunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDD75601C88B3A700A90AFE /* oyunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oyunUITests.m; sourceTree = "<group>"; };
 		FBDD75621C88B3A700A90AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDD756E1C88B66A00A90AFE /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		FBDD756F1C88B66A00A90AFE /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		FBDD753A1C88B3A600A90AFE /* oyun */ = {
 			isa = PBXGroup;
 			children = (
+				FBDD756E1C88B66A00A90AFE /* DropitBehavior.h */,
+				FBDD756F1C88B66A00A90AFE /* DropitBehavior.m */,
 				FBDD753E1C88B3A600A90AFE /* AppDelegate.h */,
 				FBDD753F1C88B3A600A90AFE /* AppDelegate.m */,
 				FBDD75411C88B3A600A90AFE /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBDD75431C88B3A600A90AFE /* ViewController.m in Sources */,
+				FBDD75701C88B66A00A90AFE /* DropitBehavior.m in Sources */,
 				FBDD75401C88B3A600A90AFE /* AppDelegate.m in Sources */,
 				FBDD753D1C88B3A600A90AFE /* main.m in Sources */,
 			);
